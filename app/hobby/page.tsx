@@ -27,7 +27,7 @@ export default function Hobby() {
         <div className="sm:block hidden">
           <Menu />
         </div>
-        <div className="bg-red-500 w-full">
+        <div className="bg-fuchsia-700 w-full">
           <div className="bg-white h-full w-full p-3">
             <div className="text-[32px] font-bold">程式專案</div>
             <div className="text-[16px] text-gray-600 ">這裡收錄我的程式學習過程</div>
