@@ -16,7 +16,7 @@ export default function About() {
           </div>
 
         </>
-        <div className="bg-black w-full">
+        <div className="bg-black w-full h-full">
           <div className="text-[32px] font-bold text-white m-4">About Me 關於我</div>
 
 
@@ -30,11 +30,11 @@ export default function About() {
 
 
               <div className="overflow-hidden bg-black border-4 border-fuchsia-700 flex-col justify-center items-end h-[300px] w-[300px] rounded-4xl  mt-4">
-                <img src="/MeInAbout.jpg" alt="My Photo" width={800} height={800}/>
+                <img src="/MeInAbout.jpg" alt="My Photo" width={600} height={600} />
               </div>
 
 
-              <div className=" bg-black border-4 border-fuchsia-700 flex-col justify-center items-start w-full rounded-4xl  mt-4 ml-4"
+              <div className=" bg-black border-4 border-fuchsia-700 flex-col justify-center items-center w-full rounded-4xl  mt-4 ml-4"
               // style={{ backgroundImage: `url(green.png)` }}
               >
                 <div className="text-[20px] font-bold flex justify-center items-center text-black bg-fuchsia-700 h-[50px] rounded-t-2xl w-full"
@@ -45,9 +45,9 @@ export default function About() {
 
                 <div className="grid grid-flow-row-dense grid-cols-3 grid-rows-3 gap-2 text-[16px] font-medium text-amber-100 px-10 py-4">
 
-                  <div className="col-span-3 flex justify-start items-center">國立政治大學廣告學系學士班在讀中</div>
-                  <div className="col-span-3 flex justify-start items-center">私立日本大學交換生</div>
-                  <div className="col-span-3 flex justify-start items-center">預計就讀國立成功大學創意產業設計研究所碩士班</div>
+                  <div className="col-span-3 flex justify-center items-center">國立政治大學廣告學系學士班在讀中</div>
+                  <div className="col-span-3 flex justify-center items-center">私立日本大學交換生</div>
+                  <div className="col-span-3 flex justify-center items-center">預計就讀國立成功大學創意產業設計研究所碩士班</div>
 
                 </div>
               </div>
