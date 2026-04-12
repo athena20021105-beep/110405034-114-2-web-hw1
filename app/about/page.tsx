@@ -29,7 +29,7 @@ export default function About() {
             <div className=" flex justify-between">
 
 
-              <div className="overflow-hidden bg-black border-4 border-fuchsia-700 flex-col justify-center items-end h-[300px] w-[300px] rounded-4xl  mt-4">
+              <div className="overflow-hidden bg-black border-4 border-fuchsia-700 flex justify-center items-center h-[300px] w-[300px] rounded-4xl  mt-4">
                 <img src="/MeInAbout.jpg" alt="My Photo" width={600} height={600} />
               </div>
 
