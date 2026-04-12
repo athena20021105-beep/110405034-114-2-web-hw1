@@ -22,18 +22,20 @@ export default function About() {
           <div className="justify-around">
 
             {/* 左邊 學校*/}
-            <div className="w-full/2 h-full/3 items-start">
-              <div className="text-[20px] font-bold justify-center items-center text-white bg-cyan-700 h-[50px] w-full rounded-2xl mt-2">
-                學歷
-              </div>
-              <div className="text-[16px] font-medium text-white bg-cyan-200 h-[120px] w-full rounded-2xl mt-2">
-                國立政治大學廣告學系學士班在讀中
-              </div>
-              <div className="text-[16px] font-medium text-white bg-cyan-200 h-[120px] w-full rounded-2xl mt-2">
-                私立日本大學交換生
-              </div>
-              <div className="text-[16px] font-medium text-gray-600">
-                預計就讀國立成功大學創意產業設計研究所碩士班
+            <div className="w-full h-full items-start">
+              <div className="justify-start items-start flex-col h-[320px] w-full rounded-4xl mt-2">
+                <div className="text-[20px] font-bold flex justify-center items-center text-white bg-cyan-700 h-[50px] w-full/2 rounded-2xl mt-2">
+                  學歷
+                </div>
+                <div className="text-[16px] font-medium text-white mt-2">
+                  。國立政治大學廣告學系學士班在讀中
+                </div>
+                <div className="text-[16px] font-medium text-white mt-2">
+                  。私立日本大學交換生
+                </div>
+                <div className="text-[16px] font-medium text-white mt-2">
+                  。預計就讀國立成功大學創意產業設計研究所碩士班
+                </div>
               </div>
 
               <div className="text-[28px] font-bold text-white bg-cyan-700 h-[120px] w-full rounded-2xl items-center mt-4">

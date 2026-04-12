@@ -20,15 +20,25 @@ export default function Menu() {
         </div>
 
         <div className="text-center">張雅媗</div>
-        <div className="text-center">簡介</div>
+        <div className="text-center">跨領域設計者，結合行銷策略規劃、數位/互動設計與展覽策劃。</div>
 
         <div className="flex gap-2">
-          {/* icons, links, images */}
-          <div>
-            <TbActivity />
+
+          <div className="bg-gray-200 w-full h-[80px] rounded-full overflow-hidden flex justify-center items-center m-auto">
+            <div className="bg-gray-200 w-[50px] h-[50px] rounded-full overflow-hidden flex justify-around items-center m-auto">
+              <Link href="/https://www.instagram.com/athenachang1105/">
+                <Image src="/IG.webp" alt="Me" width={50} height={50} />
+              </Link>
+            </div>
+            <Link href="/https://www.facebook.com/profile.php?id=100002500904193">
+              <Image src="/fb.png" alt="Me" width={50} height={50} />
+            </Link>
+            <Link href="/https://www.threads.com/@athenachang1105">
+              <Image src="/Thread.jpg" alt="Me" width={50} height={50} />
+            </Link>
           </div>
-          <div>社群連結</div>
-          <div>社群連結</div>
+
+
         </div>
 
 
