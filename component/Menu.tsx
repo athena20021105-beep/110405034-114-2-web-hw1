@@ -58,25 +58,25 @@ export default function Menu() {
 
 
         <Link href="/about">
-          <div className="bg-white/20 backdrop-saturate-300 backdrop-blur-sm  hover:bg-[url(/blue.png)] hover:bg-cover hover:bg-center hover:scale-107 hover:text-white border-2 border-white text-mauve-700 p-[16px] rounded-4xl mt-2 flex justify-center items-center">
+          <div className="bg-white/20 backdrop-saturate-300 backdrop-blur-sm transition delay-120 duration-500 ease-in-out hover:bg-[url(/blue.png)] hover:bg-cover hover:bg-center hover:scale-107 hover:text-white border-2 border-white text-mauve-700 p-[16px] rounded-4xl mt-2 flex justify-center items-center">
             關於我
           </div>
         </Link>
 
         <Link href="/hobby">
-          <div className="bg-white/20 backdrop-saturate-300 backdrop-blur-sm hover:bg-[url(/blue.png)] hover:bg-cover hover:bg-center hover:scale-107 hover:text-white border-2 border-white text-mauve-700 p-[16px] rounded-4xl mt-2 flex justify-center items-center">
+          <div className="bg-white/20 backdrop-saturate-300 backdrop-blur-sm transition delay-120 duration-500 ease-in-out hover:bg-[url(/blue.png)] hover:bg-cover hover:bg-center hover:scale-107 hover:text-white border-2 border-white text-mauve-700 p-[16px] rounded-4xl mt-2 flex justify-center items-center">
             我的興趣
           </div>
         </Link>
 
         <Link href="/DTC">
-          <div className="bg-white/20 backdrop-saturate-300 backdrop-blur-sm hover:bg-[url(/blue.png)] hover:bg-cover hover:bg-center hover:scale-107 hover:text-white border-2 border-white text-mauve-700 p-[16px] rounded-4xl mt-2 flex justify-center items-center">
+          <div className="bg-white/20 backdrop-saturate-300 backdrop-blur-sm transition delay-120 duration-500 ease-in-out hover:bg-[url(/blue.png)] hover:bg-cover hover:bg-center hover:scale-107 hover:text-white border-2 border-white text-mauve-700 p-[16px] rounded-4xl mt-2 flex justify-center items-center">
             數位內容
           </div>
         </Link>
 
         <Link href="/marketing">
-          <div className="bg-white/20 backdrop-saturate-300 backdrop-blur-sm hover:bg-[url(/blue.png)] hover:bg-cover hover:bg-center hover:scale-107 hover:text-white border-2 border-white text-mauve-700 p-[16px] rounded-4xl mt-2 flex justify-center items-center">
+          <div className="bg-white/20 backdrop-saturate-300 backdrop-blur-sm transition delay-120 duration-500 ease-in-out hover:bg-[url(/blue.png)] hover:bg-cover hover:bg-center hover:scale-107 hover:text-white border-2 border-white text-mauve-700 p-[16px] rounded-4xl mt-2 flex justify-center items-center">
             行銷專案
           </div>
         </Link>
