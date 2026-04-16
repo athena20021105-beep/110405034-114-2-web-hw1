@@ -16,7 +16,7 @@ export default function About() {
           </div>
 
         </>
-        <div className="bg-[url(/blue.png)] bg-cover bg-center bg-fixed w-full h-full">
+        <div className="bg-[url(/blue.png)] bg-cover bg-center bg-fixed w-full h-full p-4">
           <div className="text-[32px] font-bold text-white font-['Noto_Serif_TC'] flex justify-center m-8 mt-10">About Me 關於我</div>
 
 
@@ -135,11 +135,10 @@ export default function About() {
 
             </div>
 
-            <div className="h-10"></div>
 
 
           </div>
-
+          <div className="h-10"></div>
 
         </div>
       </div >

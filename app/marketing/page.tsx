@@ -3,9 +3,7 @@
 import Menu from "@/component/Menu";
 import Link from "next/link";
 
-
-
-export default function ProgrammingProject() {
+export default function Marketing() {
 
   let projectData = {
     "1": {
@@ -20,17 +18,21 @@ export default function ProgrammingProject() {
 
   return (
     <>
-      <div className="flex h-full">
-        <Link href="/" className="sm:hidden absolute left-2 top-2 bg-white">
-          返回
-        </Link>
-        <div className="sm:block hidden">
-          <Menu />
-        </div>
-        <div className="bg-red-500 w-full">
-          <div className="bg-white h-full w-full p-3">
-            <div className="text-[32px] font-bold">程式專案</div>
-            <div className="text-[16px] text-gray-600 ">這裡收錄我的程式學習過程</div>
+      <div className="flex min-h-screen w-full">
+        <>
+          <Link href="/" className="sm:hidden absolute top-2 left-2 text-white font-['Noto_Serif_TC'] inset-shadow-sm inset-shadow-black p-2 rounded-4xl flex justify-end">
+            返回首頁
+          </Link>
+
+          <div className="sm:block hidden">
+            <Menu />
+          </div>
+
+        </>
+        <div className="bg-purple-200 w-full">
+          <div className="bg-[url(/blue.png)] bg-cover bg-center bg-fixed w-full h-full p-3">
+            <div className="text-[32px] font-bold text-white font-['Noto_Serif_TC'] flex justify-center mt-10">Marketing 行銷專案</div>
+            <div className="text-[16px] font-light text-white flex justify-center ">這裡收錄我在行銷方面的專案</div>
 
             <div className="grid sm:grid-cols-3 grid-cols-2 gap-4 m-[26px]">
 
@@ -73,7 +75,6 @@ export default function ProgrammingProject() {
               <div className="bg-amber-50 rounded-2xl h-full flex justify-center items-center row-span-2">專案4</div>
               <div className="bg-amber-50 rounded-2xl h-40 flex justify-center items-center ">專案5</div>
               <div className="bg-amber-50 rounded-2xl h-40 flex justify-center items-center ">專案6</div>
-              <div className="bg-amber-50 rounded-2xl h-40 flex justify-center items-center ">專案7</div>
             </div>
           </div>
         </div>

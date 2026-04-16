@@ -1,9 +1,7 @@
 "use client"
+
 import Menu from "@/component/Menu";
-import Image from "next/image"
 import Link from "next/link";
-
-
 
 export default function Hobby() {
 
@@ -20,17 +18,21 @@ export default function Hobby() {
 
   return (
     <>
-      <div className="flex h-full">
-        <Link href="/" className="sm:hidden absolute left-2 top-2 bg-white">
-          返回
-        </Link>
-        <div className="sm:block hidden">
-          <Menu />
-        </div>
-        <div className="bg-fuchsia-700 w-full">
-          <div className="bg-white h-full w-full p-3">
-            <div className="text-[32px] font-bold">我的興趣</div>
-            <div className="text-[16px] text-gray-600 ">My Intersts</div>
+      <div className="flex min-h-screen w-full">
+        <>
+          <Link href="/" className="sm:hidden absolute top-2 left-2 text-white font-['Noto_Serif_TC'] inset-shadow-sm inset-shadow-black p-2 rounded-4xl flex justify-end">
+            返回首頁
+          </Link>
+
+          <div className="sm:block hidden">
+            <Menu />
+          </div>
+
+        </>
+        <div className="bg-purple-200 w-full">
+          <div className="bg-[url(/blue.png)] bg-cover bg-center bg-fixed w-full h-full p-3">
+            <div className="text-[32px] font-bold text-white font-['Noto_Serif_TC'] flex justify-center mt-10">Hobby 我的興趣</div>
+            <div className="text-[16px] font-light text-white flex justify-center ">這裡收錄我的各種興趣</div>
 
             <div className="grid sm:grid-cols-3 grid-cols-2 gap-4 m-[26px]">
 
