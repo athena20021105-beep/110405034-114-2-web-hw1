@@ -29,26 +29,31 @@ export default function Hobby() {
         </div>
         <div className="bg-fuchsia-700 w-full">
           <div className="bg-white h-full w-full p-3">
-            <div className="text-[32px] font-bold">我的興趣</div>
-            <div className="text-[16px] text-gray-600 ">My Intersts</div>
+            <div className="text-[32px] font-bold">程式專案</div>
+            <div className="text-[16px] text-gray-600 ">這裡收錄我的程式學習過程</div>
 
             <div className="grid sm:grid-cols-3 grid-cols-2 gap-4 m-[26px]">
 
-              <div
-                className={`bg-amber-50 rounded-2xl h-full flex justify-center items-center 
-                row-span-2 bg-center bg-cover relative overflow-hidden`}
-                style={{ backgroundImage: `url(${projectData["1"]["imageUrl"]})` }}
-              >
 
-                <div className="text-white bg-black/15 w-full h-[80px] flex 
+              <Link href="https://fengyenchia.github.io/js_final_project/public/00/">
+                <div
+                  className={`bg-amber-50 rounded-2xl h-full flex justify-center items-center 
+                row-span-2 bg-center bg-cover relative overflow-hidden`}
+                  style={{ backgroundImage: `url(${projectData["1"]["imageUrl"]})` }}
+                >
+
+                  <div className="text-white bg-black/15 w-full h-[80px] flex 
                                   justify-center items-center backdrop-blur-sm
                                   absolute bottom-0                  
                 ">
-                  {projectData["1"]["name"]}
-                </div>
+                    {projectData["1"]["name"]}
+                  </div>
 
-                {/* <div className="text-red-500 text-4xl absolute left-1/2 top-1/2 -translate-x-1/2 -translate-y-1/2">中心點</div> */}
-              </div>
+                  {/* <div className="text-red-500 text-4xl absolute left-1/2 top-1/2 -translate-x-1/2 -translate-y-1/2">中心點</div> */}
+                </div>
+              </Link>
+
+
 
 
 

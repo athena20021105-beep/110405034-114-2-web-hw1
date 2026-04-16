@@ -5,9 +5,9 @@ import Menu from "@/component/Menu";
 export default function About() {
   return (
     <>
-      <div className="flex h-full">
+      <div className="flex h-full w-full">
         <>
-          <Link href="/about" className="sm:hidden absolute top-2 left-2 bg-fuchsia-700 text-amber-100">
+          <Link href="/" className="sm:hidden absolute top-2 left-2 text-white font-['Noto_Serif_TC'] inset-shadow-sm inset-shadow-black p-2 rounded-4xl flex justify-end">
             返回首頁
           </Link>
 
@@ -16,8 +16,8 @@ export default function About() {
           </div>
 
         </>
-        <div className="bg-black w-full h-full">
-          <div className="text-[32px] font-bold text-white m-4">About Me 關於我</div>
+        <div className="bg-[url(/blue.png)] bg-cover bg-center bg-scroll w-full h-full">
+          <div className="text-[32px] font-bold text-white font-['Noto_Serif_TC'] flex justify-center m-8 mt-10">About Me 關於我</div>
 
 
 
@@ -26,53 +26,88 @@ export default function About() {
             {/* 左邊 學校*/}
             {/* <div className="w-full h-full flex-col items-start px-4"> */}
 
-            <div className=" flex justify-between">
+            <div className="sm:block hidden">
+              <div className="grid grid-cols-4 gap-4">
 
 
-              <div className="overflow-hidden bg-black border-4 border-fuchsia-700 flex justify-center items-center h-[300px] w-[300px] rounded-4xl  mt-4">
-                <img src="/MeInAbout.jpg" alt="My Photo" width={600} height={600} />
-              </div>
-
-
-              <div className=" bg-black border-4 border-fuchsia-700 flex-col justify-center items-center w-full rounded-4xl  mt-4 ml-4"
-              // style={{ backgroundImage: `url(green.png)` }}
-              >
-                <div className="text-[20px] font-bold flex justify-center items-center text-black bg-fuchsia-700 h-[50px] rounded-t-2xl w-full"
-                // style={{ backgroundImage: `url(gold.png)` }}
-                >
-                  學歷
+                <div className="overflow-hidden bg-[url(/MeInAbout.jpg)] bg-cover bg-center bg-scroll flex justify-center items-center h-full w-full rounded-4xl  mt-4">
+                  {/* <img src="/MeInAbout.jpg" alt="My Photo" width={600} height={600} /> */}
                 </div>
 
-                <div className="grid grid-flow-row-dense grid-cols-3 grid-rows-3 gap-2 text-[16px] font-medium text-amber-100 px-10 py-4">
 
-                  <div className="col-span-3 flex justify-center items-center">國立政治大學廣告學系學士班在讀中</div>
-                  <div className="col-span-3 flex justify-center items-center">私立日本大學交換生</div>
-                  <div className="col-span-3 flex justify-center items-center">預計就讀國立成功大學創意產業設計研究所碩士班</div>
+                <div className=" bg-[url(/silverBG.png)] bg-cover bg-center bg-scroll border-2 contrast-150 brightness-80 col-span-2 text-blue-950 font-['Noto_Serif_TC'] flex-col justify-center items-center h-full w-full rounded-4xl  mt-4">
+                  <div className="text-[20px] font-bold backdrop-blur-2xl flex justify-center items-center h-[50px] rounded-t-4xl w-full">
+                    學歷
+                  </div>
 
+                  <div className="grid grid-flow-row-dense grid-cols-3 grid-rows-3 gap-2 text-[16px] font-medium px-10 py-4">
+
+                    <div className="col-span-3 flex justify-center items-center">國立政治大學廣告學系學士班在讀中</div>
+                    <div className="col-span-3 flex justify-center items-center">私立日本大學交換生</div>
+                    <div className="col-span-3 flex justify-center items-center">預計就讀國立成功大學創意產業設計研究所碩士班</div>
+
+                  </div>
+                </div>
+                <div className=" bg-[url(/silverBG.png)] bg-cover bg-center bg-scroll border-2 contrast-150 brightness-80 text-blue-950 font-['Noto_Serif_TC'] flex-col justify-center items-center h-full w-full rounded-4xl  mt-4">
+                  <div className="text-[20px] font-bold backdrop-blur-2xl flex justify-center items-center h-[50px] rounded-t-4xl w-full">
+                    外語
+                  </div>
+
+                  <div className="grid grid-flow-row-dense grid-cols-3 grid-rows-3 gap-2 text-[16px] font-medium px-10 py-4">
+
+                    <div className="col-span-3 flex justify-center items-center">英文</div>
+                    <div className="col-span-3 flex justify-center items-center">日文</div>
+
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div className="sm:hidden">
+              <div className="flex-col">
+
+
+                <div className="overflow-hidden bg-[url(/MeInAbout.jpg)] bg-cover bg-center bg-scroll flex justify-center items-center h-[300px] w-full rounded-4xl mt-4">
+
+                </div>
+
+
+                <div className=" bg-[url(/silverBG.png)] bg-cover bg-center bg-scroll border-2 contrast-150 brightness-80 text-blue-950 font-['Noto_Serif_TC'] flex-col justify-center items-center h-full w-full rounded-4xl  mt-4">
+                  <div className="text-[20px] font-bold backdrop-blur-2xl flex justify-center items-center h-[50px] rounded-t-4xl w-full">
+                    學歷
+                  </div>
+
+                  <div className="grid grid-flow-row-dense grid-cols-3 grid-rows-3 gap-2 text-[16px] font-medium px-10 py-4">
+
+                    <div className="col-span-3 flex justify-center items-center">國立政治大學廣告學系學士班在讀中</div>
+                    <div className="col-span-3 flex justify-center items-center">私立日本大學交換生</div>
+                    <div className="col-span-3 flex justify-center items-center">預計就讀國立成功大學創意產業設計研究所碩士班</div>
+
+                  </div>
+                </div>
+                <div className=" bg-[url(/silverBG.png)] bg-cover bg-center bg-scroll border-2 contrast-150 brightness-80 text-blue-950 font-['Noto_Serif_TC'] flex-col justify-center items-center h-full w-full rounded-4xl  mt-4">
+                  <div className="text-[20px] font-bold backdrop-blur-2xl flex justify-center items-center h-[50px] rounded-t-4xl w-full">
+                    外語
+                  </div>
+
+                  <div className="grid grid-flow-row-dense grid-cols-3 grid-rows-3 gap-2 text-[16px] font-medium px-10 py-4">
+
+                    <div className="col-span-3 flex justify-center items-center">英文</div>
+                    <div className="col-span-3 flex justify-center items-center">日文</div>
+
+                  </div>
                 </div>
               </div>
             </div>
 
 
+            <div className=" bg-[url(/silverBG.png)] bg-cover bg-center bg-scroll contrast-150 brightness-80 border-2  flex-col justify-center items-start w-full rounded-4xl  mt-8">
 
-
-
-
-
-            <div className=" bg-black border-4 border-fuchsia-700 flex-col justify-center items-start w-full rounded-4xl  mt-4"
-            // style={{ backgroundImage: `url(green.png)` }}
-            >
-              <div className="text-[20px] font-bold flex justify-center items-center text-black bg-fuchsia-700 h-[50px] rounded-t-2xl w-full"
-              // style={{ backgroundImage: `url(gold.png)` }}
-              >
+              <div className="text-[20px] font-bold flex justify-center items-center backdrop-blur-2xl text-blue-950 font-['Noto_Serif_TC'] h-[50px] rounded-t-4xl w-full">
                 社團經歷
               </div>
 
-              {/* <div className="flex justify-around"> */}
-
-
-              <div className="grid grid-flow-row-dense grid-cols-3 grid-rows-3 gap-2 text-[16px] font-medium text-amber-100 px-10 py-4">
-
+              <div className="grid grid-flow-row-dense grid-cols-3 grid-rows-4 gap-2 text-[16px] text-blue-950 font-['Noto_Serif_TC'] font-medium px-10 py-4">
                 <div className="col-span-2 flex justify-start items-center">政大學生會公關部次長暨影音企劃組組長</div>
                 <div className="col-span-2 flex justify-start items-center">政大易學社社長</div>
                 <div className="col-span-2 flex justify-start items-center">政大西洋占星社社員</div>
@@ -81,26 +116,15 @@ export default function About() {
                 <div className="font-light flex items-center justify-end">2025-</div>
               </div>
 
-              {/* <Image src="/patten.png" alt="patten" width={30} height={30} /> */}
-
-
             </div>
 
+            <div className=" bg-[url(/silverBG.png)] bg-cover bg-center bg-scroll contrast-150 brightness-80 border-2  flex-col justify-center items-start w-full rounded-4xl  mt-4">
 
-            <div className=" bg-black border-4 border-fuchsia-700 flex-col justify-center items-start w-full rounded-4xl mt-4"
-            // style={{ backgroundImage: `url(green.png)` }}
-            >
-              <div className="text-[20px] font-bold flex justify-center items-center text-black bg-fuchsia-700 h-[50px] rounded-t-2xl w-full"
-              // style={{ backgroundImage: `url(gold.png)` }}
-              >
+              <div className="text-[20px] font-bold flex justify-center items-center backdrop-blur-2xl text-blue-950 font-['Noto_Serif_TC'] h-[50px] rounded-t-4xl w-full">
                 工作經歷
               </div>
 
-              {/* <div className="flex justify-around"> */}
-
-
-              <div className="grid grid-flow-row-dense grid-cols-3 grid-rows-3 gap-2 text-[16px] font-medium text-amber-100 px-10 py-4 ">
-
+              <div className="grid grid-flow-row-dense grid-cols-3 grid-rows-4 gap-2 text-[16px] text-blue-950 font-['Noto_Serif_TC'] font-medium px-10 py-4">
                 <div className="col-span-2 flex justify-start items-center">忠泰美術館教育推廣組實習生</div>
                 <div className="col-span-2 flex justify-start items-center">股票博物館導覽員</div>
                 <div className="col-span-2 flex justify-start items-center">經典公關專案助理</div>
@@ -109,17 +133,7 @@ export default function About() {
                 <div className="font-light flex items-center justify-end">2024</div>
               </div>
 
-              {/* <Image src="/patten.png" alt="patten" width={30} height={30} /> */}
-
-
             </div>
-
-
-
-
-
-
-
 
 
           </div>
