@@ -73,7 +73,6 @@ export default function Hobby() {
               <div className="bg-amber-50 rounded-2xl h-full flex justify-center items-center row-span-2">專案4</div>
               <div className="bg-amber-50 rounded-2xl h-40 flex justify-center items-center ">專案5</div>
               <div className="bg-amber-50 rounded-2xl h-40 flex justify-center items-center ">專案6</div>
-              <div className="bg-amber-50 rounded-2xl h-40 flex justify-center items-center ">專案7</div>
             </div>
           </div>
         </div>

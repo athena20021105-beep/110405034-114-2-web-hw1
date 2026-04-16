@@ -16,7 +16,7 @@ export default function Home() {
               <div className="justify-start">
                 <Menu />
               </div>
-              <div className="bg-black text-amber-100 text-[100px] font-serif w-full h-full flex justify-start items-end">
+              <div className="bg-black text-amber-100 text-[100px] font-serif flex w-full h-full justify-start items-end">
                 Welcome!
               </div>
             </>

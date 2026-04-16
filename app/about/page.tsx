@@ -5,7 +5,7 @@ import Menu from "@/component/Menu";
 export default function About() {
   return (
     <>
-      <div className="flex h-full w-full">
+      <div className="flex min-h-screen w-full">
         <>
           <Link href="/" className="sm:hidden absolute top-2 left-2 text-white font-['Noto_Serif_TC'] inset-shadow-sm inset-shadow-black p-2 rounded-4xl flex justify-end">
             返回首頁
@@ -16,7 +16,7 @@ export default function About() {
           </div>
 
         </>
-        <div className="bg-[url(/blue.png)] bg-cover bg-center bg-scroll w-full h-full">
+        <div className="bg-[url(/blue.png)] bg-cover bg-center bg-fixed w-full h-full">
           <div className="text-[32px] font-bold text-white font-['Noto_Serif_TC'] flex justify-center m-8 mt-10">About Me 關於我</div>
 
 
@@ -30,7 +30,7 @@ export default function About() {
               <div className="grid grid-cols-4 gap-4">
 
 
-                <div className="overflow-hidden bg-[url(/MeInAbout.jpg)] bg-cover bg-center bg-scroll flex justify-center items-center h-full w-full rounded-4xl  mt-4">
+                <div className="overflow-hidden bg-[url(/MeInAbout.jpg)] border-2 border-white bg-cover bg-center bg-scroll flex justify-center items-center h-full w-full rounded-4xl  mt-4">
                   {/* <img src="/MeInAbout.jpg" alt="My Photo" width={600} height={600} /> */}
                 </div>
 
@@ -67,7 +67,7 @@ export default function About() {
               <div className="flex-col">
 
 
-                <div className="overflow-hidden bg-[url(/MeInAbout.jpg)] bg-cover bg-center bg-scroll flex justify-center items-center h-[300px] w-full rounded-4xl mt-4">
+                <div className="overflow-hidden bg-[url(/MeInAbout.jpg)] border-2 border-white bg-cover bg-center bg-scroll flex justify-center items-center h-[300px] w-full rounded-4xl mt-4">
 
                 </div>
 
@@ -81,7 +81,7 @@ export default function About() {
 
                     <div className="col-span-3 flex justify-center items-center">國立政治大學廣告學系學士班在讀中</div>
                     <div className="col-span-3 flex justify-center items-center">私立日本大學交換生</div>
-                    <div className="col-span-3 flex justify-center items-center">預計就讀國立成功大學創意產業設計研究所碩士班</div>
+                    <div className="col-span-3 flex justify-center items-center">預計就讀國立成功大學創意產業設計碩士班</div>
 
                   </div>
                 </div>
@@ -92,8 +92,8 @@ export default function About() {
 
                   <div className="grid grid-flow-row-dense grid-cols-3 grid-rows-3 gap-2 text-[16px] font-medium px-10 py-4">
 
-                    <div className="col-span-3 flex justify-center items-center">英文</div>
-                    <div className="col-span-3 flex justify-center items-center">日文</div>
+                    <div className="col-span-3 flex justify-center items-center">英文 雅思 7 分</div>
+                    <div className="col-span-3 flex justify-center items-center">日文 日檢 N2</div>
 
                   </div>
                 </div>
@@ -134,6 +134,8 @@ export default function About() {
               </div>
 
             </div>
+
+            <div className="h-10"></div>
 
 
           </div>
