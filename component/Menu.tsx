@@ -14,7 +14,7 @@ export default function Menu() {
 
 
 
-        <Link href="/" className="text-mauve-700 inset-shadow-sm inset-shadow-mauve-400 bg-white/20 backdrop-saturate-300 backdrop-brightness-105 rounded-4xl p-2">
+        <Link href="/" className="text-mauve-600 inset-shadow-sm inset-shadow-mauve-600 bg-fuchsia-950/10 backdrop-saturate-300 backdrop-brightness-105 rounded-4xl p-2">
           HOME
         </Link>
 
@@ -27,10 +27,10 @@ export default function Menu() {
 
 
 
-        <div className="text-center font-['Noto_Serif_TC'] drop-shadow-lg drop-shadow-cyan-600 ring-2 ring-white 
+        <div className="text-center font-['Noto_Serif_TC'] drop-shadow-lg drop-shadow-fuchsia-950 ring-2 ring-white 
         bg-white/20 backdrop-saturate-300 backdrop-brightness-110 rounded-4xl text-white/70 text-[28px] font-extrabold m-4 mx-20">張雅媗</div>
-        <div className="text-center font-light text-cyan-900 text-[16px] bg-white/20 backdrop-saturate-300 backdrop-brightness-100">
-        跨領域的設計者，結合了行銷策略規劃、數位/互動設計與展覽策劃。
+        <div className="text-center font-light text-mauve-700 text-[16px] drop-shadow-lg drop-shadow-fuchsia-950 bg-white/20 backdrop-saturate-300 backdrop-brightness-100 p-2">
+        跨領域的設計者，結合行銷策略規劃、數位/互動設計與展覽策劃。
         </div>
 
         <div className="flex gap-8 justify-center m-4">
