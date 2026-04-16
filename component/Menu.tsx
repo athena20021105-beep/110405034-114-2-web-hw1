@@ -8,7 +8,7 @@ export default function Menu() {
   return (
     <>
       {/* <div className="flex min-h-screen w-[320px]"> */}
-      <div className="bg-[url(/colorful.png)] bg-purple-200 bg-cover bg-center bg-scroll saturate-105 brightness-105 flex-col justify-center w-[320px] h-full p-4 pb-7">
+      <div className="bg-[url(/colorful.png)] bg-purple-200 bg-cover bg-center bg-scroll saturate-90 brightness-105 flex-col justify-center w-[320px] h-full p-4 pb-7">
         {/* <div className="bg-[url(/colorful.png)] bg-cover bg-center bg-fixed w-full h-full"> */}
 
 
@@ -29,7 +29,7 @@ export default function Menu() {
 
         <div className="text-center font-['Noto_Serif_TC'] drop-shadow-lg drop-shadow-fuchsia-950 ring-2 ring-white 
         bg-white/20 backdrop-saturate-300 backdrop-brightness-110 rounded-4xl text-white/70 text-[28px] font-extrabold m-4 mx-20">張雅媗</div>
-        <div className="text-center font-light text-mauve-700 text-[16px] drop-shadow-lg drop-shadow-fuchsia-950 bg-white/20 backdrop-saturate-300 backdrop-brightness-100 p-2">
+        <div className="text-center font-light text-mauve-700 text-[16px] drop-shadow-lg drop-shadow-fuchsia-950 bg-white/10 backdrop-saturate-200 backdrop-brightness-100 rounded-2xl p-2">
         跨領域的設計者，結合行銷策略規劃、數位/互動設計與展覽策劃。
         </div>
 

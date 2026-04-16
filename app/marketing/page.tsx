@@ -7,7 +7,7 @@ export default function Marketing() {
 
   let projectData = {
     "1": {
-      "name": "生成式藝術"
+      "name": "社群貼文"
     },
     "1-1": {
       "name": "點選看我的上鏈作品：天裂之後",
