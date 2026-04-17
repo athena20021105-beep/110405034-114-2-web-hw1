@@ -2,6 +2,7 @@
 
 import Menu from "@/component/Menu";
 import Link from "next/link";
+import Image from "next/image";
 import { MdFace2 } from "react-icons/md";
 import { MdFace3 } from "react-icons/md";
 import { MdFaceRetouchingNatural } from "react-icons/md";
@@ -88,6 +89,12 @@ export default function Hobby() {
                   <div className="text-white font-['Noto_Serif_TC'] font-extralight tracking-widest text-[16px] flex justify-center items-center h-8">{projectData["1-1"]["name"]}</div>
                   <div className="flex justify-center items-center w-full h-full bg-cover bg-center rounded-2xl shadow-lg shadow-black"
                     style={{ backgroundImage: `url(${projectData["1-1"]["imageUrl"]})` }}>
+                    <Image
+                      src="/MeInAbout.jpg"
+                      alt="About"
+                      fill
+                      className="object-cover"
+                    />
                   </div>
                 </div>
               </div>

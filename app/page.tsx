@@ -33,11 +33,48 @@ export default function Home() {
                     <div className="flex w-full mt-4">
                       夢想是擁有良好的生活作息，跟荒木老師看齊。
                     </div>
+                    <div className="grid grid-cols-4 w-full mt-4">
+                      
+                        <label>
+                          <input className="accent-violet-400 m-2" type="checkbox" checked />
+                          不抽菸
+                        </label>
+                        <label>
+                          <input className="accent-lime-400 m-2" type="checkbox" checked />
+                          不喝酒
+                        </label>
+                        <label>
+                          <input className="accent-violet-400 m-2" type="checkbox" />
+                          每天 10 點前睡
+                        </label>
+                        <label>
+                          <input className="accent-lime-400 m-2" type="checkbox" />
+                          每天睡滿 8 小時
+                        </label>
+                      
+                        <label>
+                          <input className="accent-violet-400 m-2" type="checkbox" />
+                          睡前做柔軟操
+                        </label>
+                        <div className="col-span-2">
+                          <label>
+                          <input className="accent-lime-400 m-2" type="checkbox" />
+                          不把疲勞和壓力留到第二天
+                        </label>
+                        </div>
+                        
+                        <label>
+                          <input className="accent-violet-400 m-2" type="checkbox" />
+                          好好愛護自己的手
+                        </label>
+                      
+
+                    </div>
                     <div className="bg-black/10 opacity-20 absolute right-4 bottom-4">
                       道阻且長啊......
                     </div>
                   </div>
-                  
+
 
                 </div>
               </div>
