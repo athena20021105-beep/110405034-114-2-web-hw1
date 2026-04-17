@@ -5,9 +5,9 @@ import Menu from "@/component/Menu";
 export default function About() {
   return (
     <>
-      <div className="flex min-h-screen w-full">
+      <div className="flex min-h-screen w-full relative">
         <>
-          <Link href="/" className="sm:hidden absolute top-2 left-2 text-white font-['Noto_Serif_TC'] inset-shadow-sm inset-shadow-black p-2 rounded-4xl flex justify-end">
+          <Link href="/" className="sm:hidden z-50 absolute top-2 left-2 text-lime-800 font-bold font-['Noto_Serif_TC'] backdrop-blur-sm inset-shadow-sm inset-shadow-black p-2 rounded-4xl flex justify-end">
             返回首頁
           </Link>
 
@@ -16,8 +16,10 @@ export default function About() {
           </div>
 
         </>
-        <div className="bg-[url(/blue.png)] bg-cover bg-center bg-fixed w-full h-full p-4">
-          <div className="text-[32px] font-bold text-white font-['Noto_Serif_TC'] flex justify-center m-8 mt-10">About Me 關於我</div>
+        <div className="bg-[url(/softGreen.png)] saturate-140 bg-cover bg-center bg-fixed w-full h-full p-4">
+          <div className="text-[32px] font-bold text-lime-800 font-['Noto_Serif_TC'] flex justify-center m-8 mt-10">
+            About Me 關於我
+          </div>
 
 
 
@@ -27,15 +29,15 @@ export default function About() {
             {/* <div className="w-full h-full flex-col items-start px-4"> */}
 
             <div className="sm:block hidden">
-              <div className="grid grid-cols-4 gap-4">
+              <div className="grid md:grid-cols-4 grid-cols-1 gap-4">
 
 
-                <div className="overflow-hidden bg-[url(/MeInAbout.jpg)] border-2 border-white bg-cover bg-center bg-scroll flex justify-center items-center h-full w-full rounded-4xl  mt-4">
+                <div className="overflow-hidden bg-[url(/MeInAbout.jpg)] border-2 border-white bg-cover bg-center bg-scroll flex justify-center items-center h-[400px] w-full rounded-4xl">
                   {/* <img src="/MeInAbout.jpg" alt="My Photo" width={600} height={600} /> */}
                 </div>
 
 
-                <div className=" bg-[url(/silverBG.png)] bg-cover bg-center bg-scroll border-2 contrast-150 brightness-80 col-span-2 text-blue-950 font-['Noto_Serif_TC'] flex-col justify-center items-center h-full w-full rounded-4xl  mt-4">
+                <div className=" bg-[url(/silverBG.png)] bg-cover bg-center bg-scroll border-2 contrast-150 brightness-80 col-span-2 text-blue-950 font-['Noto_Serif_TC'] flex-col justify-center items-center h-full w-full rounded-4xl">
                   <div className="text-[20px] font-bold backdrop-blur-2xl flex justify-center items-center h-[50px] rounded-t-4xl w-full">
                     學歷
                   </div>
@@ -48,7 +50,7 @@ export default function About() {
 
                   </div>
                 </div>
-                <div className=" bg-[url(/silverBG.png)] bg-cover bg-center bg-scroll border-2 contrast-150 brightness-80 text-blue-950 font-['Noto_Serif_TC'] flex-col justify-center items-center h-full w-full rounded-4xl  mt-4">
+                <div className=" bg-[url(/silverBG.png)] bg-cover bg-center bg-scroll border-2 contrast-150 brightness-80 text-blue-950 font-['Noto_Serif_TC'] flex-col justify-center items-center h-full w-full rounded-4xl">
                   <div className="text-[20px] font-bold backdrop-blur-2xl flex justify-center items-center h-[50px] rounded-t-4xl w-full">
                     外語
                   </div>
@@ -101,7 +103,7 @@ export default function About() {
             </div>
 
 
-            <div className=" bg-[url(/silverBG.png)] bg-cover bg-center bg-scroll contrast-150 brightness-80 border-2  flex-col justify-center items-start w-full rounded-4xl  mt-8">
+            <div className=" bg-[url(/silverBG.png)] bg-cover bg-center bg-scroll contrast-150 brightness-80 border-2  flex-col justify-center items-start w-full rounded-4xl  mt-4">
 
               <div className="text-[20px] font-bold flex justify-center items-center backdrop-blur-2xl text-blue-950 font-['Noto_Serif_TC'] h-[50px] rounded-t-4xl w-full">
                 社團經歷

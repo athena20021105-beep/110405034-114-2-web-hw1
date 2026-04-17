@@ -11,34 +11,34 @@ export default function Hobby() {
 
   let projectData = {
     "1": {
-      "name": "作為一個神祕少女",
+      "name": "畢製遊戲作品：Dormancy 歸宿",
       "imageUrl": "/Cafe.png"
     },
     "1-1": {
-      "name": "塔羅",
+      "name": "政大宿舍桌面",
       "imageUrl": "/tarot.jpg"
     },
     "1-2": {
-      "name": "雷諾曼牌",
+      "name": "政大宿舍廚房",
       "imageUrl": "/lenormand.jpg"
     },
     "1-3": {
-      "name": "紫微斗數",
+      "name": "政大宿舍飲水機",
       "imageUrl": "/ZiWei.png"
     },
     "1-4": {
-      "name": "人相學",
+      "name": "政大宿舍垃圾桶",
       "imageUrl": "/lenormand.jpg"
     },
     "2": {
-      "name": "作為一個文藝少女"
+      "name": "政大 LOGO 主題建模"
     },
     "2-1": {
-      "name": "手作黏土吊飾",
+      "name": "LOGO 動態影片",
       "imageUrl": "/handcraft.jpg"
     },
     "2-2": {
-      "name": "鋼筆 & 墨水",
+      "name": "可動機關製作 - 摩天輪",
       "imageUrl": "/Ink.jpg"
     },
     "2-3": {
@@ -67,10 +67,10 @@ export default function Hobby() {
         <div className="bg-purple-200 w-full">
           <div className="bg-[url(/blue.png)] bg-cover bg-center bg-fixed flex-col w-full h-full p-3">
             <div className="text-[32px] font-bold text-white font-['Noto_Serif_TC'] flex justify-center mt-10">
-              Hobby 我的興趣
+              3D Modeling 建模作品
             </div>
             <div className="text-[18px] tracking-widest font-medium text-cyan-200 font-['Noto_Serif_TC'] flex justify-center items-center w-full bg-black/20 py-2">
-              這裡收錄我各式各樣的興趣
+              這裡收錄我的3D建模作品
             </div>
 
             <div className="flex justify-center items-center w-full h-[30px] my-8">
