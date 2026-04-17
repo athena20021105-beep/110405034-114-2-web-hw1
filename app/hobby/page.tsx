@@ -79,7 +79,7 @@ export default function Hobby() {
               </div>
             </div>
 
-            <div className="grid sm:grid-cols-4 grid-cols-1 gap-4 m-[26px]">
+            <div className="grid md:grid-cols-4 grid-cols-1 gap-4 m-[26px]">
 
 
 
