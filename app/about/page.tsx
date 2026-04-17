@@ -28,7 +28,7 @@ export default function About() {
             {/* 左邊 學校*/}
             {/* <div className="w-full h-full flex-col items-start px-4"> */}
 
-            <div className="sm:block hidden">
+            <div className="md:block hidden">
               <div className="grid md:grid-cols-2 grid-cols-1 gap-4">
 
 
