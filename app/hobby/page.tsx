@@ -7,10 +7,10 @@ export default function Hobby() {
 
   let projectData = {
     "1": {
-      "name": "生成式藝術"
+      "name": "文藝少女"
     },
     "1-1": {
-      "name": "點選看我的上鏈作品：天裂之後",
+      "name": "文物修復：全色",
       "imageUrl": "/OBJKT.png",
       "link": "https://objkt.com/tokens/open_objkt/25545"
     },
@@ -25,7 +25,12 @@ export default function Hobby() {
       "link": "https://openprocessing.org/user/549289#sketches"
     },
     "2": {
-      "name": "網頁遊戲 - 被監視的咖啡廳",
+      "name": "神祕少女",
+      "imageUrl": "/Cafe.png",
+      "link": "https://fengyenchia.github.io/js_final_project/public/00/"
+    },
+    "3": {
+      "name": "宅系少女",
       "imageUrl": "/Cafe.png",
       "link": "https://fengyenchia.github.io/js_final_project/public/00/"
     },
