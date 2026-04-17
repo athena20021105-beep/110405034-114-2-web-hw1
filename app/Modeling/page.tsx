@@ -66,7 +66,7 @@ export default function Hobby() {
         </>
         <div className="bg-purple-200 w-full">
           <div className="bg-[url(/blue.png)] bg-cover bg-center bg-fixed flex-col w-full h-full p-3">
-            <div className="sm:hidden text-[32px] font-bold text-white font-['Noto_Serif_TC'] flex justify-center mt-10">
+            <div className="text-[32px] font-bold text-white font-['Noto_Serif_TC'] flex justify-center mt-10">
               3D Modeling 建模作品
             </div>
             <div className="text-[18px] tracking-widest font-medium text-cyan-200 font-['Noto_Serif_TC'] flex justify-center items-center w-full bg-black/20 py-2">
@@ -79,7 +79,7 @@ export default function Hobby() {
               </div>
             </div>
 
-            <div className="grid sm:grid-cols-4 grid-cols-1 gap-4 m-[26px]">
+            <div className="grid md:grid-cols-4 grid-cols-1 gap-4 m-[26px]">
 
 
 
@@ -114,7 +114,7 @@ export default function Hobby() {
                 <div className="flex-col justify-center items-center h-full w-full p-2">
                   <div className="text-white font-['Noto_Serif_TC'] font-extralight tracking-widest text-[16px] flex justify-center items-center h-8">{projectData["1-4"]["name"]}</div>
                   <div className="flex justify-center items-center w-full h-full rounded-2xl shadow-lg shadow-black bg-black/5 backdrop-blur-sm">
-                    <div className="grid grid-cols-2 w-full h-full bg-center bg-cover"
+                    <div className="grid grid-cols-2 w-full h-full rounded-2xl bg-center bg-cover"
                     style={{ backgroundImage: `url(${projectData["1-4"]["imageUrl"]})` }}>
                   
                       </div>
