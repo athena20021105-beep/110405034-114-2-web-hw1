@@ -39,7 +39,7 @@ export default function Marketing() {
             返回首頁
           </Link>
 
-          <div className="sm:block hidden">
+          <div className="sm:block hidden h-full">
             <Menu />
           </div>
 
@@ -53,7 +53,7 @@ export default function Marketing() {
 
 
               <div
-                className={`bg-cyan-950 inset-shadow-black inset-shadow-sm rounded-2xl h-100 flex items-center 
+                className={`inset-shadow-black inset-shadow-sm rounded-2xl h-100 flex items-center 
                 col-span-3 bg-center bg-cover relative overflow-x-auto snap-x snap-mandatory scroll-smooth scroll-pl-3`}
               >
 
@@ -151,8 +151,8 @@ export default function Marketing() {
 
                 <Link href={projectData["2"].link} className="absolute bottom-4 right-4 text-center font-['Noto_Serif_TC'] drop-shadow-lg drop-shadow-cyan-950 ring-2 ring-white 
         bg-cyan-950/50 backdrop-saturate-300 backdrop-brightness-110 backdrop-blur-sm rounded-4xl text-white/70 text-[16px] font-extrabold p-2 px-8">
-                          {projectData["2"].name}
-                        </Link>
+                  {projectData["2"].name}
+                </Link>
 
                 {/* <div className="text-red-500 text-4xl absolute left-1/2 top-1/2 -translate-x-1/2 -translate-y-1/2">中心點</div> */}
               </div>

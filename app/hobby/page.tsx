@@ -10,17 +10,17 @@ export default function Hobby() {
       "name": "文藝少女"
     },
     "1-1": {
-      "name": "文物修復：全色",
-      "imageUrl": "/OBJKT.png",
+      "name": "手作黏土吊飾",
+      "imageUrl": "/handcraft.jpg",
       "link": "https://objkt.com/tokens/open_objkt/25545"
     },
     "1-2": {
-      "name": "點選看我的 Matters 帳號",
-      "imageUrl": "/Matters.png",
+      "name": "鋼筆 & 墨水",
+      "imageUrl": "/Ink.jpg",
       "link": "https://matters.town/@athena20021105"
     },
     "1-3": {
-      "name": "點選看我的 OpenProcessing 帳號",
+      "name": "文物修復：全色",
       "imageUrl": "/OpenProcessing.png",
       "link": "https://openprocessing.org/user/549289#sketches"
     },
@@ -58,7 +58,7 @@ export default function Hobby() {
 
 
               <div
-                className={`bg-cyan-950 inset-shadow-black inset-shadow-sm rounded-2xl h-100 flex items-center 
+                className={`inset-shadow-black inset-shadow-sm rounded-2xl h-100 flex items-center 
                 col-span-3 bg-center bg-cover relative overflow-x-auto snap-x snap-mandatory scroll-smooth scroll-pl-3`}
               >
 
@@ -73,7 +73,7 @@ export default function Hobby() {
                 </div>
 
                 {/* 可滑動區 */}
-                <div className="h-full overflow-x-auto overflow-y-hidden snap-x snap-mandatory scroll-smooth">
+                <div className="h-full overflow--auto overflow-y-hidden snap-x snap-mandatory scroll-smooth">
 
                   {/* 橫向內容 */}
                   <div className="flex gap-4 h-full pl-[100px] pr-4 items-center">
@@ -156,8 +156,8 @@ export default function Hobby() {
 
                 <Link href={projectData["2"].link} className="absolute bottom-4 right-4 text-center font-['Noto_Serif_TC'] drop-shadow-lg drop-shadow-cyan-950 ring-2 ring-white 
         bg-cyan-950/50 backdrop-saturate-300 backdrop-brightness-110 backdrop-blur-sm rounded-4xl text-white/70 text-[16px] font-extrabold p-2 px-8">
-                          {projectData["2"].name}
-                        </Link>
+                  {projectData["2"].name}
+                </Link>
 
                 {/* <div className="text-red-500 text-4xl absolute left-1/2 top-1/2 -translate-x-1/2 -translate-y-1/2">中心點</div> */}
               </div>

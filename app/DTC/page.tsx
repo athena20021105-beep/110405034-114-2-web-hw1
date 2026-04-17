@@ -53,7 +53,7 @@ export default function DCT() {
 
 
               <div
-                className={`bg-cyan-950 inset-shadow-black inset-shadow-sm rounded-2xl h-100 flex items-center 
+                className={`inset-shadow-black inset-shadow-sm rounded-2xl h-100 flex items-center 
                 col-span-3 bg-center bg-cover relative overflow-x-auto snap-x snap-mandatory scroll-smooth scroll-pl-3`}
               >
 
