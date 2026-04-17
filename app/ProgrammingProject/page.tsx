@@ -40,13 +40,13 @@ export default function ProgrammingProject() {
             返回首頁
           </Link>
 
-          <div className="sm:block hidden">
+          <div className="sm:block hidden fixed z-50 h-full">
             <Menu />
           </div>
 
         </>
         <div className="bg-purple-200 w-full">
-          <div className="bg-[url(/blueDark.png)] bg-cover bg-center bg-fixed w-full h-full p-3">
+          <div className="bg-[url(/blueDark.png)] bg-cover bg-center bg-fixed h-full sm:ml-[320px] p-3">
             <div className="text-[32px] font-bold text-white font-['Noto_Serif_TC'] flex justify-center mt-10">Programming Project 程式設計</div>
             <div className="text-[18px] tracking-widest font-medium text-cyan-200 font-['Noto_Serif_TC'] flex justify-center items-center w-full bg-black/20 py-2">
               這裡收錄我的程式設計專案
@@ -140,10 +140,14 @@ export default function ProgrammingProject() {
 
 
 
-              <div className="flex justify-center w-full col-span-3 h-[400px] relative bg-black/20 inset-shadow-sm inset-shadow-black rounded-2xl px-4 pb-10">
-                <div className="flex-col justify-center items-center h-full w-full p-2">
-                  <div className="text-white font-['Noto_Serif_TC'] font-extralight tracking-widest text-[16px] flex justify-center items-center h-8">{projectData["2"]["name"]}</div>
-                  <div className="flex justify-center items-center w-full h-full bg-cover bg-center rounded-2xl shadow-lg shadow-black"
+              <div className="flex justify-center w-full col-span-3 h-[400px] relative bg-black/50 inset-shadow-sm inset-shadow-black rounded-2xl px-4 pb-10">
+                <div className="flex-col justify-center items-center h-full w-full px-2">
+                  <div className="text-white font-['Noto_Serif_TC'] font-extralight tracking-widest text-[16px] flex justify-center items-center h-8">
+                    <div className="bg-blue-400/20 inset-shadow-sm inset-shadow-black rounded-2xl px-8">
+                      {projectData["2"]["name"]}
+                    </div>
+                  </div>
+                  <div className="flex justify-center items-center w-full h-full bg-cover bg-center rounded-2xl relative shadow-lg shadow-black"
                     style={{ backgroundImage: `url(${projectData["2"]["imageUrl"]})` }}>
                     <Link href={projectData["2"].link} className="absolute bottom-2 flex justify-center text-center font-['Noto_Serif_TC'] drop-shadow-lg drop-shadow-cyan-950 ring-2 ring-white 
 bg-cyan-950/50 backdrop-saturate-300 backdrop-brightness-110 backdrop-blur-sm rounded-4xl text-white/70 text-[16px] font-extrabold p-2 px-8">

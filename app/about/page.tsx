@@ -11,12 +11,12 @@ export default function About() {
             返回首頁
           </Link>
 
-          <div className="sm:block hidden">
+          <div className="sm:block hidden fixed z-50 h-full">
             <Menu />
           </div>
 
         </>
-        <div className="bg-[url(/softGreen.png)] saturate-140 bg-cover bg-center bg-fixed w-full h-full p-4">
+        <div className="bg-[url(/softGreen.png)] saturate-140 bg-cover bg-center bg-fixed w-full sm:ml-[320px] h-full p-4">
           <div className="text-[32px] font-bold text-lime-800 font-['Noto_Serif_TC'] flex justify-center m-8 mt-10">
             About Me 關於我
           </div>
@@ -25,15 +25,12 @@ export default function About() {
 
           <div className="flex-col justify-around w-full h-full px-4">
 
-            {/* 左邊 學校*/}
-            {/* <div className="w-full h-full flex-col items-start px-4"> */}
 
             <div className="md:block hidden">
               <div className="grid md:grid-cols-2 grid-cols-1 gap-4">
 
 
                 <div className="overflow-hidden row-span-2 bg-[url(/MeInAbout.jpg)] border-2 border-white bg-cover bg-center bg-scroll flex justify-center items-center h-full w-full rounded-4xl">
-                  {/* <img src="/MeInAbout.jpg" alt="My Photo" width={600} height={600} /> */}
                 </div>
 
 

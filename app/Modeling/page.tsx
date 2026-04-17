@@ -59,13 +59,13 @@ export default function Hobby() {
             返回首頁
           </Link>
 
-          <div className="sm:block hidden">
+          <div className="sm:block hidden fixed z-50 h-full">
             <Menu />
           </div>
 
         </>
         <div className="bg-purple-200 w-full">
-          <div className="bg-[url(/blue.png)] bg-cover bg-center bg-fixed flex-col w-full h-full p-3">
+          <div className="bg-[url(/blue.png)] bg-cover bg-center bg-fixed flex-col h-full sm:ml-[320px] p-3">
             <div className="text-[32px] font-bold text-white font-['Noto_Serif_TC'] flex justify-center mt-10">
               3D Modeling 建模作品
             </div>
