@@ -29,15 +29,15 @@ export default function About() {
             {/* <div className="w-full h-full flex-col items-start px-4"> */}
 
             <div className="sm:block hidden">
-              <div className="grid md:grid-cols-4 grid-cols-1 gap-4">
+              <div className="grid md:grid-cols-2 grid-cols-1 gap-4">
 
 
-                <div className="overflow-hidden bg-[url(/MeInAbout.jpg)] border-2 border-white bg-cover bg-center bg-scroll flex justify-center items-center h-[400px] w-full rounded-4xl">
+                <div className="overflow-hidden row-span-2 bg-[url(/MeInAbout.jpg)] border-2 border-white bg-cover bg-center bg-scroll flex justify-center items-center h-full w-full rounded-4xl">
                   {/* <img src="/MeInAbout.jpg" alt="My Photo" width={600} height={600} /> */}
                 </div>
 
 
-                <div className=" bg-[url(/silverBG.png)] bg-cover bg-center bg-scroll border-2 contrast-150 brightness-80 col-span-2 text-blue-950 font-['Noto_Serif_TC'] flex-col justify-center items-center h-full w-full rounded-4xl">
+                <div className=" bg-[url(/silverBG.png)] bg-cover bg-center bg-scroll border-2 contrast-150 brightness-80 col-span-1 text-blue-950 font-['Noto_Serif_TC'] flex-col justify-center items-center h-full w-full rounded-4xl">
                   <div className="text-[20px] font-bold backdrop-blur-2xl flex justify-center items-center h-[50px] rounded-t-4xl w-full">
                     學歷
                   </div>
@@ -65,7 +65,7 @@ export default function About() {
               </div>
             </div>
 
-            <div className="sm:hidden">
+            <div className="md:hidden">
               <div className="flex-col">
 
 
