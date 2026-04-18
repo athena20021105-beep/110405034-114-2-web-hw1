@@ -46,7 +46,7 @@ export default function Home() {
                       </label>
                       <label>
                         <input className="accent-violet-400 m-2" type="checkbox" />
-                        每天 10 點前睡
+                        每天 11 點前睡
                       </label>
                       <label>
                         <input className="accent-lime-400 m-2" type="checkbox" />
