@@ -12,13 +12,14 @@ export default function Home() {
 
         <div className="sm:block hidden w-full">
           {/* 電腦版 */}
-          <div className="flex h-full w-full">
+          <div className="flex h-full w-full justify-center">
             <>
               <div className="justify-start w-[320px]">
                 <Menu />
               </div>
-              <div className="bg-[url(/black.png)] bg-center bg-cover flex h-full w-full justify-center items-center px-4 md:px-10 xl:px-40 relative">
-                <div className="bg-blue-950/30 font-['Noto_Serif_TC'] font-bold overflow-hidden rounded-2xl backdrop-brightness-50 backdrop-saturate-150 inset-shadow-lg inset-shadow-black inset-shadow-sm text-orange-200 text-[18px] flex flex-col justify-center items-center h-[320px] w-full content-start p-8 pb-12">
+              <div className="bg-[url(/black.png)] bg-center bg-cover flex h-full w-full justify-center items-center
+               px-4 md:px-10 xl:px-25 xl:border-2 xl:border-amber-50 relative">
+                <div className="bg-blue-950/30 font-['Noto_Serif_TC'] font-bold overflow-hidden rounded-2xl backdrop-brightness-50 backdrop-saturate-150 inset-shadow-lg inset-shadow-black inset-shadow-sm text-orange-200 text-[18px] flex flex-col justify-center items-center xl:h-fit h-[320px] w-full content-start p-8 pb-12">
                   <div className="overflow-y-auto p-4">
                     <div>
                       我的名字叫張雅媗，23歲。
@@ -33,7 +34,7 @@ export default function Home() {
                     <div className="flex w-full mt-4">
                       夢想是擁有良好的生活作息，跟荒木老師看齊。
                     </div>
-                    <div className="grid md:grid-cols-4 grid-cols-1 w-full mt-4">
+                    <div className="grid md:grid-cols-2 xl:grid-cols-4 grid-cols-1 w-full mt-4">
 
                       <label>
                         <input className="accent-violet-400 m-2" type="checkbox" defaultChecked />
@@ -56,7 +57,7 @@ export default function Home() {
                         <input className="accent-violet-400 m-2" type="checkbox" />
                         睡前做柔軟操
                       </label>
-                      <div className="md:col-span-2">
+                      <div className="xl:col-span-2">
                         <label>
                           <input className="accent-lime-400 m-2" type="checkbox" />
                           不把疲勞和壓力留到第二天
@@ -70,7 +71,7 @@ export default function Home() {
 
 
                     </div>
-                    <div className="bg-black/10 opacity-20 absolute right-4 bottom-4">
+                    <div className="bg-black/10 opacity-30 absolute right-4 bottom-4">
                       道阻且長啊......
                     </div>
                   </div>

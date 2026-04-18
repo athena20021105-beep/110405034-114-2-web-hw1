@@ -32,10 +32,10 @@ export default function Menu() {
           <div className="drop-shadow-lg drop-shadow-black/40">張雅媗</div>
         </div>
 
-        <div className="text-center font-['Noto_Serif_TC'] drop-shadow-lg drop-shadow-fuchsia-950 ring-2 ring-white 
+        <Link href="/" className="text-center font-['Noto_Serif_TC'] drop-shadow-lg drop-shadow-fuchsia-950 ring-2 ring-white 
         bg-white/20 hover:bg-[url(/softGreen.png)] bg-cover bg-center hover:hue-rotate-350 hover:saturate-120 hover:brightness-70 hover:contrast-250 sm:block hidden backdrop-saturate-300 backdrop-brightness-110 rounded-4xl text-white/70 hover:text-white text-[28px] font-extrabold m-4 mx-20">
           <div className="drop-shadow-lg drop-shadow-black/40">張雅媗</div>
-        </div>
+        </Link>
         <div className="text-center font-light text-mauve-700 text-[16px] drop-shadow-lg drop-shadow-fuchsia-950 bg-white/10 backdrop-saturate-200 backdrop-brightness-100 rounded-2xl p-2">
           跨領域的設計者，結合行銷策略規劃、數位/互動設計與展覽策劃。
         </div>
