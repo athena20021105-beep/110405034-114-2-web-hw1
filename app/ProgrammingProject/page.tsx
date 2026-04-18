@@ -45,7 +45,7 @@ export default function ProgrammingProject() {
           </div>
 
         </>
-        <div className="bg-purple-200 w-full">
+        <div className="bg-blue-950 w-full">
           <div className="bg-[url(/blueDark.png)] bg-cover bg-center bg-fixed h-full sm:ml-[320px] p-3">
             <div className="text-[32px] font-bold text-white font-['Noto_Serif_TC'] flex justify-center mt-10">Programming Project 程式設計</div>
             <div className="text-[18px] tracking-widest font-medium text-cyan-200 font-['Noto_Serif_TC'] flex justify-center items-center w-full bg-black/20 py-2">

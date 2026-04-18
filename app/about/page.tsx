@@ -16,7 +16,7 @@ export default function About() {
           </div>
 
         </>
-        <div className="bg-[url(/softGreen.png)] saturate-140 bg-cover bg-center bg-fixed w-full sm:ml-[320px] h-full p-4">
+        <div className="bg-[url(/softGreen.png)] bg-yellow-50 saturate-140 bg-cover bg-center bg-fixed w-full sm:ml-[320px] h-full p-4">
           <div className="text-[32px] font-bold text-lime-800 font-['Noto_Serif_TC'] flex justify-center m-8 mt-10">
             About Me 關於我
           </div>
@@ -30,11 +30,11 @@ export default function About() {
               <div className="grid md:grid-cols-2 grid-cols-1 gap-4">
 
 
-                <div className="overflow-hidden row-span-2 bg-[url(/MeInAbout.jpg)] border-2 border-white bg-cover bg-center bg-scroll flex justify-center items-center h-full w-full rounded-4xl">
+                <div className="overflow-hidden row-span-2 bg-[url(/MeInAbout.jpg)] bg-gray-300 border-2 border-white bg-cover bg-center bg-scroll flex justify-center items-center h-full w-full rounded-4xl">
                 </div>
 
 
-                <div className=" bg-[url(/silverBG.png)] bg-cover bg-center bg-scroll border-2 contrast-150 brightness-80 col-span-1 text-blue-950 font-['Noto_Serif_TC'] flex-col justify-center items-center h-full w-full rounded-4xl">
+                <div className=" bg-[url(/silverBG.png)] bg-gray-300 bg-cover bg-center bg-scroll border-2 contrast-150 brightness-80 col-span-1 text-blue-950 font-['Noto_Serif_TC'] flex-col justify-center items-center h-full w-full rounded-4xl">
                   <div className="text-[20px] font-bold backdrop-blur-2xl flex justify-center items-center h-[50px] rounded-t-4xl w-full">
                     學歷
                   </div>
@@ -47,7 +47,7 @@ export default function About() {
 
                   </div>
                 </div>
-                <div className=" bg-[url(/silverBG.png)] bg-cover bg-center bg-scroll border-2 contrast-150 brightness-80 text-blue-950 font-['Noto_Serif_TC'] flex-col justify-center items-center h-full w-full rounded-4xl">
+                <div className=" bg-[url(/silverBG.png)] bg-gray-300 bg-cover bg-center bg-scroll border-2 contrast-150 brightness-80 text-blue-950 font-['Noto_Serif_TC'] flex-col justify-center items-center h-full w-full rounded-4xl">
                   <div className="text-[20px] font-bold backdrop-blur-2xl flex justify-center items-center h-[50px] rounded-t-4xl w-full">
                     外語
                   </div>
@@ -66,12 +66,12 @@ export default function About() {
               <div className="flex-col">
 
 
-                <div className="overflow-hidden bg-[url(/MeInAbout.jpg)] border-2 border-white bg-cover bg-center bg-scroll flex justify-center items-center h-[300px] w-full rounded-4xl mt-4">
+                <div className="overflow-hidden bg-[url(/MeInAbout.jpg)] bg-gray-300 border-2 border-white bg-cover bg-center bg-scroll flex justify-center items-center h-[300px] w-full rounded-4xl mt-4">
 
                 </div>
 
 
-                <div className=" bg-[url(/silverBG.png)] bg-cover bg-center bg-scroll border-2 contrast-150 brightness-80 text-blue-950 font-['Noto_Serif_TC'] flex-col justify-center items-center h-full w-full rounded-4xl  mt-4">
+                <div className=" bg-[url(/silverBG.png)] bg-gray-300 bg-cover bg-center bg-scroll border-2 contrast-150 brightness-80 text-blue-950 font-['Noto_Serif_TC'] flex-col justify-center items-center h-full w-full rounded-4xl  mt-4">
                   <div className="text-[20px] font-bold backdrop-blur-2xl flex justify-center items-center h-[50px] rounded-t-4xl w-full">
                     學歷
                   </div>
@@ -84,7 +84,7 @@ export default function About() {
 
                   </div>
                 </div>
-                <div className=" bg-[url(/silverBG.png)] bg-cover bg-center bg-scroll border-2 contrast-150 brightness-80 text-blue-950 font-['Noto_Serif_TC'] flex-col justify-center items-center h-full w-full rounded-4xl  mt-4">
+                <div className=" bg-[url(/silverBG.png)] bg-gray-300 bg-cover bg-center bg-scroll border-2 contrast-150 brightness-80 text-blue-950 font-['Noto_Serif_TC'] flex-col justify-center items-center h-full w-full rounded-4xl  mt-4">
                   <div className="text-[20px] font-bold backdrop-blur-2xl flex justify-center items-center h-[50px] rounded-t-4xl w-full">
                     外語
                   </div>
@@ -100,7 +100,7 @@ export default function About() {
             </div>
 
 
-            <div className=" bg-[url(/silverBG.png)] bg-cover bg-center bg-scroll contrast-150 brightness-80 border-2  flex-col justify-center items-start w-full rounded-4xl  mt-4">
+            <div className=" bg-[url(/silverBG.png)] bg-gray-300 bg-cover bg-center bg-scroll contrast-150 brightness-80 border-2  flex-col justify-center items-start w-full rounded-4xl  mt-4">
 
               <div className="text-[20px] font-bold flex justify-center items-center backdrop-blur-2xl text-blue-950 font-['Noto_Serif_TC'] h-[50px] rounded-t-4xl w-full">
                 社團經歷
@@ -117,7 +117,7 @@ export default function About() {
 
             </div>
 
-            <div className=" bg-[url(/silverBG.png)] bg-cover bg-center bg-scroll contrast-150 brightness-80 border-2  flex-col justify-center items-start w-full rounded-4xl  mt-4">
+            <div className=" bg-[url(/silverBG.png)] bg-gray-300 bg-cover bg-center bg-scroll contrast-150 brightness-80 border-2  flex-col justify-center items-start w-full rounded-4xl  mt-4">
 
               <div className="text-[20px] font-bold flex justify-center items-center backdrop-blur-2xl text-blue-950 font-['Noto_Serif_TC'] h-[50px] rounded-t-4xl w-full">
                 工作經歷

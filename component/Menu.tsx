@@ -20,7 +20,7 @@ export default function Menu() {
 
         <div className="flex justify-center items-center w-full">
           <div className="bg-pink-100  drop-shadow-md drop-shadow-gray-380 w-[90px] h-[90px] rounded-full border-2 border-white overflow-hidden flex justify-center items-center">
-            <Image src="/me.jpeg" alt="Me" width={80} height={80} />
+            <Image src="/me.jpeg" alt="Me" width={90} height={90} />
           </div>
         </div>
 

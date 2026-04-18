@@ -64,7 +64,7 @@ export default function Hobby() {
           </div>
 
         </>
-        <div className="bg-purple-200 w-full">
+        <div className="bg-blue-950 w-full">
           <div className="bg-[url(/blue.png)] bg-cover bg-center bg-fixed flex-col h-full sm:ml-[320px] p-3">
             <div className="text-[32px] font-bold text-white font-['Noto_Serif_TC'] flex justify-center mt-10">
               3D Modeling 建模作品
