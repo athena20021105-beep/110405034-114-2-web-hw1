@@ -17,7 +17,7 @@ export default function Home() {
               <div className="justify-start w-[320px]">
                 <Menu />
               </div>
-              <div className="bg-[url(/black.png)] bg-center bg-cover flex h-full w-full justify-center items-center px-8 md:px-40 relative">
+              <div className="bg-[url(/black.png)] bg-center bg-cover flex h-full w-full justify-center items-center px-4 md:px-10 xl:px-40 relative">
                 <div className="bg-blue-950/30 font-['Noto_Serif_TC'] font-bold overflow-hidden rounded-2xl backdrop-brightness-50 backdrop-saturate-150 inset-shadow-lg inset-shadow-black inset-shadow-sm text-orange-200 text-[18px] flex flex-col justify-center items-center h-[320px] w-full content-start p-8 pb-12">
                   <div className="overflow-y-auto p-4">
                     <div>
