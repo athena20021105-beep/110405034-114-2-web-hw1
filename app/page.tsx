@@ -33,7 +33,7 @@ export default function Home() {
                     <div className="flex w-full mt-4">
                       夢想是擁有良好的生活作息，跟荒木老師看齊。
                     </div>
-                    <div className="grid grid-cols-4 w-full mt-4">
+                    <div className="grid md:grid-cols-4 grid-cols-1 w-full mt-4">
 
                       <label>
                         <input className="accent-violet-400 m-2" type="checkbox" defaultChecked/>
@@ -65,7 +65,7 @@ export default function Home() {
 
                       <label>
                         <input className="accent-violet-400 m-2" type="checkbox" />
-                        好好愛護自己的手
+                        好好愛護手手
                       </label>
 
 
