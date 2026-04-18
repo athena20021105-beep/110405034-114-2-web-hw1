@@ -65,7 +65,7 @@ export default function Home() {
                       </div>
 
                       <label>
-                        <input className="accent-violet-400 m-2" type="checkbox" />
+                        <input className="accent-fuchsia-200 m-2" type="checkbox" />
                         好好愛護手手
                       </label>
 
