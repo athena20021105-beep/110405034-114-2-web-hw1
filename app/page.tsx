@@ -36,11 +36,11 @@ export default function Home() {
                     <div className="grid md:grid-cols-4 grid-cols-1 w-full mt-4">
 
                       <label>
-                        <input className="accent-violet-400 m-2" type="checkbox" defaultChecked/>
+                        <input className="accent-violet-400 m-2" type="checkbox" defaultChecked />
                         不抽菸
                       </label>
                       <label>
-                        <input className="accent-lime-400 m-2" type="checkbox" defaultChecked/>
+                        <input className="accent-lime-400 m-2" type="checkbox" defaultChecked />
                         不喝酒
                       </label>
                       <label>
@@ -56,7 +56,7 @@ export default function Home() {
                         <input className="accent-violet-400 m-2" type="checkbox" />
                         睡前做柔軟操
                       </label>
-                      <div className="col-span-2">
+                      <div className="md:col-span-2">
                         <label>
                           <input className="accent-lime-400 m-2" type="checkbox" />
                           不把疲勞和壓力留到第二天
